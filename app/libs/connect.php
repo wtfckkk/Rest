@@ -5,8 +5,8 @@ function getConnection()
 {
     try{
        $db_user = "admindb";
-       $do_password = "4dmin!!";
-       $connection = new PDO("mysql:host=45.55.223.65;dbname=leadsius", $db_user, $do_password);                      
+       $do_password = "p4ssword";
+       $connection = new PDO("mysql:host=localhost;dbname=leadsius", $db_user, $do_password);                      
     }
     
     catch(PDOException $e){
